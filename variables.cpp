@@ -19,5 +19,9 @@ int main()
 	//non ignorar os warnings evalualos e buscar unha solucion
 	//wchar_t aparece porque o char esta implementado de modo que cada caracter ocupa un byte  e alguns caracteres usan mais dun byte para a sua representacion
 	double b{ 3/2 }; //vemos claramente por exemplo nunha linguaxe sen tipos como python que primeiro opera e logo castea colle un int entre un int e logo fai a operacion que da un int que logo converte a double
+	//coidado porque auto non admite a inicializacion uniforme
+	//coidado porque auto non intenta emular os tipados debiles unha vez asignado ese valor do tipo x
+	//esa variable queda asociada a ese tipo que deduciu o compilador
+	auto x = 5;
 	std::cout<< b << std::endl;
 }
