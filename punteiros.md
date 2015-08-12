@@ -1,6 +1,6 @@
 #os punteiros en cpp#
 
-temos que ter en conta que os punterios non son sinonimo de referencias se non que son os que conteñen as mesmas
+temos que ter en conta que os punterios non son sinonimo de referencias se non que son os que conteñen as mesmas,
 se as referencias son distintas formas de chamar a unha variable
 ie:
 	int a {2};
