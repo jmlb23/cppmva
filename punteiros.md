@@ -3,8 +3,10 @@
 temos que ter en conta que os punterios non son sinonimo de referencias se non que son os que conteñen as mesmas,
 se as referencias son distintas formas de chamar a unha variable
 ie:
+
 	int a {2};
 	int& b {a};
+
 os punteiros non son mais que alias a mesma referencia int* v = &a se usamos v danos o mesmo que &a os punteiros conteñen
 a direccion de memoria do comezo do espazo onde esta contida a variable e espandese o que ocupe a mesma
 
